@@ -1,0 +1,345 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo-back{
+    background-color: #c92529;
+    
+}
+.logo-img{
+    
+    margin-top: 10px;
+    margin-left:100px;
+    margin-bottom: 10px;
+    margin-right:400px;
+}
+
+
+.nav-items{
+         position: relative;
+         top:-55px;
+}
+.nav-ul{
+    
+    
+    position: absolute;
+    right:100px;
+    
+
+}
+
+.nav-li {
+    float:left;
+   
+    
+}
+.nav-ul .nav-li{
+    padding-left:50px;
+    list-style-type: none;
+   
+
+   
+  
+    
+}
+
+.nav-li a{
+    text-decoration:none ;
+color:yellow;}
+
+
+
+.img-carsoul img{
+   width:393px;
+   height:280px;
+ }
+ 
+.grid-container{
+    display: grid;
+    margin-left: 150px;
+    grid-template-columns: 500px 500px;
+    gap:20px;
+}
+
+.grid-container p{
+    line-height: 25px;
+}
+
+.grid-container .second-para{
+    padding-top:10px;
+    padding-bottom: 30px;
+}
+
+.heading-in-momostory{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.order-online-sec{
+    background-color: yellow;
+    padding-bottom: 20px;
+}
+
+.heading-in-orderonline-sec{
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-in-orderonline img{
+   
+    margin-left: 580px;
+    margin-top: 10px;
+    
+}
+.btns-in-order-online {
+    display:inline;
+    margin-left:180px;
+   
+    
+}
+.btns-in-order-online button{
+      padding:10px;
+      width:200px;
+      border:2px solid black;
+      border-radius:35px;
+      margin-top: 20px;
+      
+
+} 
+
+.btns-in-order-online1 {
+    display:inline;
+    margin-left:320px;
+   
+    
+}
+.btns-in-order-online1 button{
+      padding:10px;
+      width:200px;
+      border:2px solid black;
+      border-radius:35px;
+      margin-top: 20px;
+      
+
+} 
+
+.btn-swiggy{
+    background-color: #ea630a;
+    color:white;
+}
+
+
+.btn-zomato{
+    background-color: #c92529;
+    color:white;
+}
+
+.btn-dotpe{
+    background-color: lightseagreen;
+    color:white;
+}
+
+
+
+.head-in-crossimg{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    
+}
+
+
+
+
+
+.grid-container1{
+    display: grid;
+    margin-left: 120px;
+    grid-template-columns: 500px 500px;
+    gap:20px;
+}
+
+.grid-container1 .img-incross{
+    margin-top: 20px;
+}
+
+.grid-container1 p{
+    line-height: 25px;
+}
+
+.form-control{
+    width:1000px;
+    padding:20px;
+    border:2px solid  #f7f7f7;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.form-div {
+    margin-left:150px;
+}
+
+.form-head{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+.form-para{
+    margin-left:70px;
+   margin-bottom: 20px;
+}
+
+
+.select-dropdown{
+    width: 220px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.btn-send{
+    padding: 5px;
+   
+}
+
+
+.footer-sec {
+    background-color: #c92529;
+    margin-top: 20px;
+}
+
+
+.footer-div .footer-para1 {
+   padding-top: 50px;
+    text-align: center;
+}
+
+.footer-div .footer-para2{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.footer-link{
+    text-decoration: none;
+    color: yellow;
+}
+@media screen and (max-width: 480px) {
+    .nav-ul .nav-li{
+       float:none;
+    padding:0;
+    
+        
+    }
+
+    .nav-ul{
+       
+        right:0px;
+        text-align:center;
+
+    }
+
+   .nav-items{
+    display:block;
+    padding: 50px;
+    text-align: center;
+    }
+
+    .logo-img{
+        margin-top:10px;
+    margin-bottom: 10px;
+       margin-left: 100px;
+       margin-right: 0;
+
+    }
+
+    .nav-li a{
+        margin-right: 130px;
+    }
+  }
+
+  @media screen and (min-width: 480px){
+    .img-carsoul img{
+       width:1349px;
+       height:600px;
+    }
+  }
+
+  @media screen and (max-width: 480px){
+    .grid-container{
+        display: block;
+        margin-left: 10px;
+  }}
+
+  @media screen and (max-width: 480px){
+    .img-in-orderonline img{
+        width:190px;
+        height:90px;
+        margin-left: 100px;
+        margin-top: 10px;
+        
+        
+    }
+
+    .btns-in-order-online{
+        display:inline;
+        margin-left:90px;
+       
+    }
+
+    .btns-in-order-online1 {
+        display:inline;
+        margin-left:90px;
+    
+       
+        
+    }
+  }
+
+
+@media screen and (max-width: 480px){
+    .grid-container1{
+        display: block;
+        margin-left: 10px;
+  }
+  .grid-container1 .img-incross{
+    width:380px;
+    height:400px;
+}
+
+
+.form-control{
+    width:350px;
+    padding:20px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.form-div {
+    margin-left:20px;
+}
+
+.form-head{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.form-para{
+    margin-left:20px;
+   margin-bottom: 20px;
+}
+
+}
+
+
+
+  
