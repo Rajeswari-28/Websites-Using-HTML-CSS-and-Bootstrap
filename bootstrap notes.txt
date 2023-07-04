@@ -1,0 +1,120 @@
+class=dropdown,data-bs-theme=>dropdown dark and light
+
+button-->btn-secondary etc..
+
+Mobile first, responsive design is the goal.
+grid system-->12 column system
+
+classes:
+*container
+*container-{breakpoint}==>breakpoints-6 responsive breakpoints
+*container-fluid
+*col
+*row
+*text-center
+*col-1,2,3,4,5,6
+*variable width content==>col-{breakpoint}-auto
+*justify-content
+*row-cols-*
+vertical alignment
+*align-items-start or end or center
+*align-self-start or end or center
+horizontal alignment
+*justify-content-start or end or center or around or between or evenly
+*offset-md-*
+*me-auto(end)
+*ms-auto(start)
+*p-*
+*mb-auto(buttom)
+*clearfix- responsive floated images.
+
+Gutters
+--------
+Gutters are the padding between your columns, used to responsively space and align content in the Bootstrap grid system.
+Gutters start at 1.5rem (24px) wide.
+
+horizontal gutter:
+*gx-*
+Vertical gutters:
+*.gy-*
+No gutters :
+*g-0
+
+*d-flex
+*bg-color
+*bg-gradient
+*bg-opacity
+*border-color
+*border-opacity
+*border-width(1 to 5)
+*borderradius--rounded-*(bottom,top..1 to 5)
+
+*text-opacity
+*text-color
+
+*d-*(display)
+
+*float-*
+
+interactions:
+
+pointer events
+
+*pe-none or auto
+
+text selection:
+
+*user-select-all or auto or none
+
+object-fit
+-----------
+
+contain
+cover
+fill
+scale (for scale-down)
+none
+
+.object-fit-{breakpoint}-{value} 
+
+opacity:
+--------
+
+opacity-100
+opacity-75
+opacity-50
+opacity-25
+
+overflow:
+---------
+
+*overflow-x(auto,hidden,visibility,scroll)
+*overflow-y
+
+positions:
+-----------
+
+* translate-middle-x or .translate-middle-y classes, elements can be positioned only in horizontal or vertical direction.
+*position-()
+
+=>shadow or -none-sm-lg
+
+==>word-break
+==>text braek
+==>fs-*
+==>fw-*
+==>lh-*
+==>text-(cap,upper,lower)
+==>text-decoration
+vertical align:
+==>.align-baseline, .align-top, .align-middle, .align-bottom, .align-text-bottom, and .align-text-top 
+
+visibility:
+<div class="visible">...</div>
+<div class="invisible">...</div>
+
+z-index:
+---------
+*z-*
+
+
